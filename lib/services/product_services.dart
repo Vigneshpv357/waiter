@@ -4,7 +4,7 @@ import 'package:waiter/model/product.dart';
 
 class ProductService {
   Future<List<Products>> getAll() async {
-    const url = 'https://retoolapi.dev/pv9Rrz/food';
+    const url = 'https://retoolapi.dev/EWXPqd/food';
     final uri = Uri.parse(url);
     final response = await http.get(uri);
     if (response.statusCode == 200) {
